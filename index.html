@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Baap ER Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-green-200">
+    <h1 class="text-4xl font-bold uppercase text-cyan-600 mt-10 text-center">baap <span class="text-red-400">er</span>
+        bank
+    </h1>
+    <form class="mt-8 w-6/12 m-auto">
+        <input id="emailField" class="w-full mb-3 py-2 px-2 rounded border focus:border-teal-400 outline-none"
+            type="email" placeholder="Your email">
+        <input id="passwordField" class="w-full mb-3 py-2 px-2 rounded border focus:border-teal-400 outline-none"
+            type="password" placeholder="Your password">
+        <div class=" w-full  flex justify-center mt-4">
+            <button id="loginBtn"
+                class="bg-sky-500 hover:bg-sky-700 py-2 px-7 text-white capitalize font-semibold rounded-3xl ">login</button>
+        </div>
+    </form>
+    <p id="loginInfo" class="hidden text-center text-slate-600 capitalize text-sm mt-3">enter corrct email and password
+    </p>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Baap ER Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-green-200">
+    <h1 class="text-4xl font-bold uppercase text-cyan-600 mt-10 text-center">account <span
+            class="text-red-400">balance</span> info
+
+    </h1>
+    <div class="mt-8 w-9/12 m-auto">
+        <div class="grid grid-cols-3 gap-8">
+            <div class="bg-green-400 py-6 px-4 rounded text-white font-medium">
+                <h4 class="text-xl capitalize">balance</h4>
+                <h4 class="text-3xl mt-1">$<span id="balanceDisplay">00</span></h4>
+            </div>
+            <div class="bg-cyan-400 py-6 px-4 rounded text-white font-bold">
+                <h4 class="text-xl capitalize">deposite</h4>
+                <h4 class="text-3xl mt-1">$<span id="dipositeDisplay">00</span></h4>
+            </div>
+            <div class="bg-red-400 py-6 px-4 rounded text-white font-bold">
+                <h4 class="text-xl capitalize">withdraw</h4>
+                <h4 class="text-3xl mt-1">$ <span id="withdrawDisplay">00</span></h4>
+            </div>
+        </div>
+        <div class="grid grid-cols-2 gap-8 mt-8 ">
+            <div class="bg-violet-600 text-white py-4 px-4">
+                <input id="depositeAmount"
+                    class="w-full py-2 px-2 rounded border focus:border-teal-400 outline-none text-black text-xl font-medium"
+                    type="
+                    text" placeholder="Amount">
+                <button id="depositeBtn"
+                    class=" mt-4 bg-sky-500 hover:bg-sky-700 py-2 px-7 text-white capitalize font-medium rounded-3xl ">Deposite</button>
+            </div>
+            <div class="bg-violet-600 text-white py-4 px-4">
+                <input id="withdrawAmount"
+                    class="w-full py-2 px-2 rounded border focus:border-teal-400 outline-none text-black text-xl font-medium"
+                    type="
+                    text" placeholder="Amount">
+                <button id="withdrawBtn"
+                    class=" mt-4 bg-sky-500 hover:bg-sky-700 py-2 px-7 text-white capitalize font-medium rounded-3xl ">withdraw</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/account.js"></script>
+</body>
+
+</html>
