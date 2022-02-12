@@ -27,7 +27,7 @@ function handleDepositeBtn() {
 
     balanceValue.innerText = finalBalance;
     depositeValue.innerText = finalDepositeAmount;
-    depositeInput.value = "";
+    // depositeInput.value = "";
 }
 
 
